@@ -1,0 +1,71 @@
+#titulo{
+    text-align: center;
+    color: #f2f7f2; /* Verde escuro */
+    margin-top: 0px;
+    font-size: 60px; /* Maior tamanho de fonte */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+    padding: 10px; /* Mais espaço ao redor do conteúdo */
+    border-radius: 20px; /* Borda mais arredondada */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Sombra mais pronunciada */
+    margin-top: 0px; /* Mais espaço acima */
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    
+} 
+.btn {
+    display: inline-block;
+    background-color: #000000; /* Verde escuro */
+    color: #fff;
+    padding: 15px 30px; /* Mais espaço interno */
+    text-decoration: none;
+    border-radius: 10px; /* Borda mais arredondada */
+    transition: background-color 0.3s ease;
+    font-size: 18px; /* Tamanho de fonte maior */
+}
+.container2{
+    background-color: #000000;
+}
+.coluna{
+    
+    width: 30%; /* A largura de cada coluna */
+    padding: 100px;
+    margin: 0px;
+    margin-right: 200px;
+}
+#foto1{
+    margin-left: 350px;
+    width: 350px;
+    height: 350px;
+}
+#inicio{
+    text-align: center;
+    margin-top: 80px;
+    color: #f2f7f2;
+    margin-left: 20px;
+}
+#botao{
+    margin-right: 100px;
+    margin-left: 70px;
+}
+#botao2{
+    text-align: center;
+    margin-top: 20px;
+}
+#caixa3{
+  color: #f2f7f2;
+}
+
+
+
+
+body{
+    background-color: rgb(106, 167, 157);
+    background-image: url(foto4.jpg);
+left: 100px;
+right: 100px;
+}

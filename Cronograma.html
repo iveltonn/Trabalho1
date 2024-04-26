@@ -1,0 +1,153 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>cronograma</title>
+
+    <style>
+        body {
+            background-color: rgb(12, 22, 21);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .coluna {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .FundoColuna {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            color: #333;
+        }
+
+        .mb-4 {
+            text-align: center;
+        }
+
+        .list-group {
+            padding-left: 0;
+            list-style: none;
+            text-align: center;
+        }
+
+        .list-group-item {
+            background-color: #f2f2f2;
+            border: none;
+            margin-bottom: 5px;
+            border-radius: 5px;
+        }
+
+        #caixa3 {
+            flex: 0.6;
+            color: white;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        td {
+            background-color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+   <div class="container">
+        <section class="coluna">
+            <div class="FundoColuna">
+                <h2 class="mb-4">Sobre o Evento</h2>
+                <table>
+                    <tbody><tr>
+                        <th>Detalhes</th>
+                        <th>Informações</th>
+                    </tr>
+                    <tr>
+                        <td>Coordenador do evento:</td>
+                        <td>Clécio Francisco Vieira de Sousa</td>
+                    </tr>
+                    <tr>
+                        <td>Organização:</td>
+                        <td>CTBJ/UFPI com o apoio da empresa AGRITECH JÚNIOR</td>
+                    </tr>
+                    <tr>
+                        <td>Local do evento:</td>
+                        <td>Campus Prof. Cinobelina Elvas-UFPI</td>
+                    </tr>
+                    <tr>
+                        <td>Carga Horária:</td>
+                        <td>Será duas horas por dia durante os dias já mencionados anteriormente.</td>
+                    </tr>
+                </tbody></table>
+            </div>    
+        </section>
+        <section class="coluna">
+            <div class="FundoColuna">
+                <h2 class="mb-4">Programação</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">Dia 06/05: Fundamentos de Desenvolvimento Web</li>
+                    <li class="list-group-item">Dia 07/05: Introdução ao HTML</li>
+                    <li class="list-group-item">Dia 08/05: Utilizando CSS para estilizar o HTML</li>
+                    <li class="list-group-item">Dia 09/05: Como utilizar o GitHub</li>
+                    <li class="list-group-item">Dia 10/05: Implementação de Desenvolvimento Web na Engenharia Agronômica</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <section id="caixa3">
+        <div class="FundoColuna">
+            <h2 class="mb-4">Cronograma</h2>
+            <table>
+                <tbody><tr>
+                    <th>Data</th>
+                    <th>Descrição</th>
+                </tr>
+                <tr>
+                    <td>Dia 06/05</td>
+                    <td>Neste dia, serão abordados os conceitos básicos do desenvolvimento web, incluindo linguagens de marcação, estilos e interação cliente-servidor.</td>
+                </tr>
+                <tr>
+                    <td>Dia 07/05</td>
+                    <td>Introdução ao HTML: Será uma introdução à linguagem de marcação HTML, cobrindo sua estrutura básica, tags comuns e semântica.</td>
+                </tr>
+                <tr>
+                    <td>Dia 08/05</td>
+                    <td>Utilizando CSS para estilizar o HTML: Este dia será dedicado ao uso de CSS para estilizar páginas HTML, incluindo seletores, propriedades e técnicas de layout.</td>
+                </tr>
+                <tr>
+                    <td>Dia 09/05</td>
+                    <td>Como utilizar o GitHub: Será uma introdução ao uso do GitHub para controle de versão de código, colaboração e hospedagem de projetos.</td>
+                </tr>
+                <tr>
+                    <td>Dia 10/05</td>
+                    <td>Implementação de Desenvolvimento Web na Engenharia Agronômica: Neste último dia, será discutido como aplicar os conceitos de Desenvolvimento Web na engenharia agronômica incluindo caso de uso e exemplos práticos.</td>
+                </tr>
+            </tbody></table>
+        </div>
+    </section>
+
+
+
+</body></html>
